@@ -1,0 +1,33 @@
+page-home {
+      
+
+    
+    ion-content {
+       
+        background: linear-gradient(#3c1053,#ad5389);
+    }
+
+    img {
+        width: 80%;
+    }
+    .slideshow{
+             
+       
+            color:white;
+            font-size: 75%;
+            text-align: center;
+        
+           
+
+            
+    }
+    ion-slide{
+        
+        padding: 25px;
+    }
+    .swiper-pagination-bullet-active 
+    {
+        background-color: white;  
+    }
+  
+}

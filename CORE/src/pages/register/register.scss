@@ -1,0 +1,56 @@
+page-login {
+
+    
+    ion-content {
+        background: linear-gradient(#1F8367,#97EA9D);
+      
+      
+        
+    }
+   
+    h1 {
+        color: #fff;
+    }
+    .logo {
+        width: 40%;
+        margin: auto;
+        
+    }
+
+    .quote{
+        font-size: 15px;
+      
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+     #input{
+
+        background: white;
+      
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+        border-radius: 10px;
+        border-bottom-color: transparent !important; 
+        box-shadow: none !important;
+       
+        
+      
+    }
+   
+    #button {
+        background: white;
+        color: rgb(67, 143, 38);
+        font-size: 15px;
+        border: transparent;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .icon{
+        padding: 4px;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+ 
+}

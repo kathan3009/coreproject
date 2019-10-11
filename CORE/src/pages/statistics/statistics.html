@@ -1,0 +1,23 @@
+<ion-header no-border>
+    <ion-navbar  color='navbarColor'>  
+      
+      <ion-buttons start>
+        <button ion-button menuToggle left>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-buttons>
+      
+      <ion-title>Statistics</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content padding>
+    <ion-card id="graph" no-shadow>
+        <ion-card-header>
+          
+        </ion-card-header>
+        <ion-card-content id='chart'>
+          <canvas #barCanvas height="450px" width="400px" style="padding: 6px;"  ></canvas>
+        </ion-card-content>
+      </ion-card>
+  
+</ion-content>

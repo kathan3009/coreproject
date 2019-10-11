@@ -1,0 +1,18 @@
+page-statistics {
+   
+    ion-content {
+        background: linear-gradient(#1F8367,#97EA9D);
+    }
+    ion-card-header {
+        display: none;
+    }
+    #graph {
+        background-color: transparent !important;
+        -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+        height: 100%;
+        width: 100%;
+       
+    }
+}

@@ -1,0 +1,55 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+*{
+    font-family: 'montserrat' ;  
+}
+
+ion-content:not(.background-color-transparent) {
+    background-color: #fff !important;
+}
+.scroll-content{overflow-y: auto;}
+.profile-image{
+    padding: 2%;
+     width: 150px;
+     height: 150px;
+     margin-left: 25%;
+     border-radius: 50%;
+}
+
+.profile-main h1 {
+    
+    overflow: hidden; 
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
