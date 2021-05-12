@@ -30,7 +30,7 @@
     "@ionic/storage": "2.2.0",
     "@tensorflow-models/posenet": "^1.0.0",
     "@tensorflow/tfjs": "^1.0.1",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "cordova-android": "7.1.4",
     "cordova-plugin-camera": "^4.0.3",
     "cordova-plugin-camera-preview": "0.10.0",
